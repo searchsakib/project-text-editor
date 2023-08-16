@@ -23,15 +23,16 @@
         },
       };
     </script>
-    <script src="script.js" defer></script>
+    <script src="utility.js" defer></script>
+    <script src="project.js" defer></script>
   </head>
   <body class="bg-background">
     <main>
       <section class="mt-10 w-3/4 mx-auto text-white">
-        <h2 class="text-2xl text-center">Text Editor</h2>
-        <div class="bg-blue-200">
-          <div class="flex items-center justify-around mt-4 p-4">
-            <div class="flex gap-4">
+        <h2 class="text-2xl text-center mb-8">Text Editor</h2>
+        <div class="bg-blue-200 border-black border-2">
+          <div class="flex items-center justify-around mt-4 pb-2 pt-5">
+            <div class="flex gap-5">
               <span
                 ><i class="fa-solid fa-b text-white" style="color: #000000"></i
               ></span>
@@ -42,7 +43,7 @@
                 ><i class="fa-solid fa-underline" style="color: #000000"></i
               ></span>
             </div>
-            <div class="flex gap-4">
+            <div class="flex gap-5">
               <span
                 ><i class="fa-solid fa-align-left" style="color: #000000"></i
               ></span>
@@ -56,7 +57,7 @@
                 ><i class="fa-solid fa-align-justify" style="color: #000000"></i
               ></span>
             </div>
-            <div class="flex gap-4">
+            <div class="flex gap-5">
               <span
                 ><input
                   class="text-black"
@@ -78,14 +79,16 @@
             </div>
           </div>
 
-          <div>
-            <textarea
-              class="text-black w-full h-96 outline-none px-2 py-2 font-medium"
-              name=""
-              id=""
-              cols="50"
-              rows="50"
-            ></textarea>
+          <div class="pl-4 pr-4 pb-2 pt-3">
+            <div class="border-black border-t-2 pt-4">
+              <textarea
+                class="text-black w-full h-96 outline-none px-2 py-2 font-normal"
+                name=""
+                id=""
+                cols="50"
+                rows="50"
+              ></textarea>
+            </div>
           </div>
         </div>
       </section>
